@@ -1,0 +1,17 @@
+{
+  "root": "/home/dev/feedback/uid29548",
+  "B": "/home/dev/feedback/uid29548",
+  "sha": "0b587f03b762446b797e1bb03ae72804d329671a",
+  "wslDistro": "Ubuntu-26.04",
+  "source": {
+    "owner": "bettercap",
+    "repo": "bettercap",
+    "sha": "0b587f03b762446b797e1bb03ae72804d329671a"
+  },
+  "fork": {
+    "owner": "Rrr119",
+    "repo": "bettercap",
+    "cloneUrl": "https://github.com/Rrr119/bettercap.git"
+  },
+  "at": "2026-11-20T05:23:43.753Z"
+}

@@ -22,6 +22,7 @@ import (
 	"github.com/bettercap/bettercap/v2/modules/mac_changer"
 	"github.com/bettercap/bettercap/v2/modules/mysql_server"
 	"github.com/bettercap/bettercap/v2/modules/ndp_spoof"
+	"github.com/bettercap/bettercap/v2/modules/net_assessment"
 	"github.com/bettercap/bettercap/v2/modules/net_probe"
 	"github.com/bettercap/bettercap/v2/modules/net_recon"
 	"github.com/bettercap/bettercap/v2/modules/net_sniff"
@@ -60,6 +61,7 @@ func LoadModules(sess *session.Session) {
 	sess.Register(mysql_server.NewMySQLServer(sess))
 	sess.Register(zerogod.NewZeroGod(sess))
 	sess.Register(net_sniff.NewSniffer(sess))
+	sess.Register(net_assessment.NewAssessment(sess))
 	sess.Register(packet_proxy.NewPacketProxy(sess))
 	sess.Register(net_probe.NewProber(sess))
 	sess.Register(syn_scan.NewSynScanner(sess))

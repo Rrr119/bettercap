@@ -130,6 +130,8 @@ func (mod *EventsStream) Render(output io.Writer, e session.Event) {
 		mod.viewSnifferEvent(output, e)
 	} else if e.Tag == "syn.scan" {
 		mod.viewSynScanEvent(output, e)
+	} else if e.Tag == "net.assessment" {
+		mod.viewAssessmentEvent(output, e)
 	} else if e.Tag == "update.available" {
 		mod.viewUpdateEvent(output, e)
 	} else if e.Tag == "gateway.change" {

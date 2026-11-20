@@ -1,0 +1,18 @@
+{
+  "uid": "29548",
+  "harness": "Codex CLI",
+  "snapshotUrl": "https://github.com/Rrr119/bettercap/commit/0b587f03b762446b797e1bb03ae72804d329671a",
+  "harnessVersion": "codex-cli 0.167.2",
+  "operatingSystem": "Ubuntu 26.04.1 LTS",
+  "operatingSystemCell": [
+    "MacOS/Linux"
+  ],
+  "outputDirectory": "/home/dev/feedback/uid29548",
+  "wslDistro": "Ubuntu-26.04",
+  "B": {
+    "success": false,
+    "side": "B",
+    "error": "当前执行失败：Incomplete response returned, reason: max_output_tokens",
+    "attempts": 6
+  }
+}

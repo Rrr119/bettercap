@@ -97,6 +97,7 @@ func (s *Session) EventsCompleter(prefix string) []string {
 		"https.spoofed-request",
 		"https.spoofed-response",
 		"syn.scan",
+		"net.assessment",
 		"net.sniff.mdns",
 		"net.sniff.mdns",
 		"net.sniff.dot11",

@@ -32,6 +32,7 @@ bettercap is a powerful, easily extensible and portable framework written in Go 
 * 2.4Ghz wireless devices scanning and **MouseJacking** attacks with over-the-air HID frames injection (with DuckyScript support).
 * **CAN-bus** and **DBC** support for decoding, injecting and fuzzing frames.
 * Passive and active IP network hosts probing and recon.
+* Passive internal network assessment with host and exposed-service risk reporting.
 * **ARP, DNS, NDP and DHCPv6 spoofers** for MITM attacks on IPv4 and IPv6 based networks.
 * **Proxies at packet level, TCP level and HTTP/HTTPS** application level fully scriptable with easy to implement **javascript plugins**.
 * A powerful **network sniffer** for **credentials harvesting** which can also be used as a **network protocol fuzzer**.
